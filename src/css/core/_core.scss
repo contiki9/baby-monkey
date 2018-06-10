@@ -1,0 +1,46 @@
+$_base-font-size-px: 16px !default;
+$_between-lines: (1rem / 2.3) !default;
+$_container-max-width: 1280px !default;
+$_transition-duration: .2s !default;
+$_font-path: '../../../snow-monkey/vendor/inc2734/wp-basis/src/assets/packages/sass-basis/src/font' !default;
+$_base-margin-bottom: 1 !default;
+$_h2-font-size-scale: 1.5 !default;
+$_h2-margin-top: $_base-margin-bottom * 2 !default;
+$_h3-margin-top: $_base-margin-bottom * 1.5 !default;
+$_h3-margin-bottom: $_base-margin-bottom * .75 !default;
+$_h4-margin-bottom: $_base-margin-bottom * .75 !default;
+$color-accent: #6a1b9a !default;
+$one-column-slim-max-width: 46rem !default;
+
+@import '../../../snow-monkey/vendor/inc2734/wp-basis/src/assets/packages/sass-basis/src/css/basis-core';
+
+@import 'mixin/btn';
+@import 'mixin/section';
+@import 'mixin/entry-content';
+@import 'mixin/responsive-container';
+
+//add
+
+// Colors
+$color-link: #1E87F0 !default;
+$light-grey: #e1e1e1 !default;
+$dark-grey: #333 !default;
+$primary-color: $color-link !default;
+$secondary-color: lighten($dark-grey, 13.5%) !default;
+$color-border: #e5e5e5 !default;;
+$border-color: $color-border !default;
+$font-color: #666666 !default;
+$font-color-light: #607d8b !default;
+$bg-light: #f5f5f5 !default;
+$color-bg: #eceff1 !default;
+// Misc
+$global-radius: 4px !default;
+
+//breakpointサイズ
+$breakpoints: (
+        'brk': 'screen and (max-width: 640px)',
+        'sp': 'screen and (max-width: 400px)',
+        'tb': 'screen and (max-width: 768px)',
+        'pc': 'screen and (min-width: 641px)',
+) !default;
+
