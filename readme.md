@@ -8,7 +8,8 @@ SnowMonkeyはモンキーレンチのキタジマ氏が開発・販売してい�
 ## 利用方法
 
 ### インストール
-`$ git clone `
+`$ git clone https://github.com/contiki9/baby-monkey.git`
+`$ cd baby-monkey`
 `$ npm i`
 ※ gitとnode.jsとnpmはインストール済みの想定です。
 
@@ -19,7 +20,7 @@ SnowMonkeyはモンキーレンチのキタジマ氏が開発・販売してい�
 
 
 ## 注意事項
-- `SnowMonkey`が同階層にインストールされてないと`gulp`の実行でミスします。
+- `SnowMonkey`が同階層にインストールされてないと`gulp`の実行で失敗します。
 - 多分ちゃんと私がメンテナンスしないと親テーマのアップデートのタイミングで、何かあればissueください。
 - なにかあっても自己責任でお願いします。
 
