@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'wp-share-buttons';
+  src: url('../../../snow-monkey/vendor/inc2734/wp-share-buttons/src/assets/font/wp-share-buttons.eot');
+  src: url('../../../snow-monkey/vendor/inc2734/wp-share-buttons/src/assets/font/wp-share-buttons.eot')  format('embedded-opentype'),
+  url('../../../snow-monkey/vendor/inc2734/wp-share-buttons/src/assets/font/wp-share-buttons.ttf')  format('truetype'),
+  url('../../../snow-monkey/vendor/inc2734/wp-share-buttons/src/assets/font/wp-share-buttons.woff') format('woff'),
+  url('../../../snow-monkey/vendor/inc2734/wp-share-buttons/src/assets/font/wp-share-buttons.svg')  format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'basis';
+  $_font-path:'../../../snow-monkey/vendor/inc2734/wp-basis/src/assets/packages/sass-basis/src/font';
+  src: url($_font-path + '/basis.eot');
+  src: url($_font-path + '/basis.eot#iefix') format('embedded-opentype'),
+  url($_font-path + '/basis.ttf') format('truetype'),
+  url($_font-path + '/basis.woff') format('woff'),
+  url($_font-path + '/basis.svg#basis') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
